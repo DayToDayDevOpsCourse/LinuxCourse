@@ -36,6 +36,22 @@
      2. du
      3. df
      
+   6. Install GIt
+       yum update
+       yum install git
+       git --version 
+   7. Install java
+    yum install java
+    yum install java-1.8.0-openjdk
+    
+   8. Install jenkins
+   
+   sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+   sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+   sudo yum install jenkins
+   
+   sudo service jenkins start/stop/restart
+     
        
      
      
