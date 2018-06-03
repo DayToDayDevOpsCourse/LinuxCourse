@@ -12,11 +12,8 @@
           2.4. mv
           2.5 rm
           2.6. sed
-          2.7. awk
           2.8. uname
-          2.9. grep
           2.10 find
-          2.11. cut
           2.12. wc
    3.Viewing a file content
     
