@@ -2,52 +2,55 @@
 
   1. Linux Archetecture (files/folder structure)
   
-  2. Linux Commands:
-  
-    
+  2. Linux basic commands:
+      
           2.1. mkdir
           2.2. cd
-          2.3 touch
           2.3. cp
           2.4. mv
-          2.5 rm
-          2.6. sed
-          2.8. uname
-          2.10 find
-          2.12. wc
-   3.Viewing a file content
+          2.5. rm
+          2.7. who
+          2.7. uname
+          2.8. find
+          2.9. grep
+          2.10. wc
+          
+   3. Create/read/update/delete file:
     
-       1.cat
-       2.more
-       3.less
-       
-       
-   4.Editing of files
+          3.1. touch
+          3.2. cat
+          3.3. more
+          3.4. less
+          3.5. rm -rf
+          3.6. head
+          3.7. tail
+          3.8. vi/vim/nano
+          3.9. sed
+         
+   4. Disk usage and free memory
    
-     1. vi/vim/nano
+          4.1. free
+          4.2. du
+          4.3. df
      
-     
-   5. Disk usage and free memory
+   5. Install GIt
+
+          yum update
+          yum install git
+          git --version
+         
+   6. Install java
    
-     1. free
-     2. du
-     3. df
-     
-   6. Install GIt
-       yum update
-       yum install git
-       git --version 
-   7. Install java
-    yum install java
-    yum install java-1.8.0-openjdk
+          yum install java
+          yum install java-1.8.0-openjdk
     
-   8. Install jenkins
+   7. Install jenkins
    
-   sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
-   sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
-   sudo yum install jenkins
-   
-   sudo service jenkins start/stop/restart
+         sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+         sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+         sudo yum install jenkins
+
+         sudo service jenkins start/stop/restart
      
        
      
