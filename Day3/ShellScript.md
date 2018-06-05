@@ -81,30 +81,69 @@
            mkdir rc${runlevel}.d
          done
 
-##### 3. 
+###### 8. for loop example-4 : write a shell script to find all the matched paths with the word. Or find all the branches with the name Nov. 
+         note:- read the input from user.
 
+         #!/bin/bash
+         echo "Branch name"
+         read branchName
 
-##### 3. 
+         echo "Project Area"
+         read dirPath
 
+         echo "Searching for the word $branchName under the directory $dirPath :" > paths.txt
 
+         array=(`find $dirPath -name '*'$branchName'*'`)
 
-##### 1. write a shell script to find all the matched paths with the word. Or find all the branches with the name Nov. 
-         note:- take the input from user.
-
-      #!/bin/bash
-      echo "Branch name"
-      read branchName
-
-      echo "Project Area"
-      read dirPath
-
-      echo "Searching for the word $branchName under the directory $dirPath :" > paths.txt
-
-      array=(`find $dirPath -name '*'$branchName'*'`)
-
-      for path in "${array[@]}"
-      do
+         for path in "${array[@]}"
+         do
          echo "Path-------->"$path >> paths.txt
-      done
+         done
 
-      echo "find the report in paths.txt" file.
+         echo "find the report in paths.txt" file.
+      
+###### 9. while loop example-1
+
+         #!/bin/sh
+
+         INPUT_STRING=hello
+
+         while [ "$INPUT_STRING" != "bye" ]
+         do
+
+           echo "Please type something in (bye to quit)"
+           read INPUT_STRING
+           echo "You typed: $INPUT_STRING"
+
+         done
+         
+###### 10. while loop example-2
+
+         #!/bin/sh
+
+         # Invinity loop, you have to press Ctrl + c to comeout from the loop
+
+         while :
+
+         do
+
+           echo "Please type something in (^C to quit)"
+
+           read INPUT_STRING
+
+           echo "You typed: $INPUT_STRING"
+
+         done
+
+###### 10. while loop example-3
+
+         #!/bin/sh
+
+         while read line
+         do
+         
+           echo "Each Line: $line"
+
+         done < whileLoop-1.sh
+
+###### 11. while loop example-4
