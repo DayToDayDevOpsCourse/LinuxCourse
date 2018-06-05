@@ -10,6 +10,10 @@
 
 ##### 2. echo - example-2
 
+         Run this command before executing the below script:
+         echo *
+         echo "*"
+
          #!/bin/sh
 
          echo "Hello      World"       
@@ -146,4 +150,72 @@
 
          done < whileLoop-1.sh
 
-###### 11. while loop example-4
+###### 11. if statement: example-1
+
+         #!/bin/sh
+
+         var1=-10
+
+         if [ "$var1" -lt "0" ]
+         then
+           echo "$var1 is less than zero"
+         fi
+
+###### 12. if statement: example-2
+
+         #!/bin/sh
+
+         string1="DevOps"
+
+         echo "-----equals example-----"
+
+         if [ "$string1" = "DevOps" ]
+
+         then
+
+                  echo "Matched"
+
+         fi
+
+###### 13. if statement: example-3
+
+         #!/bin/sh
+
+         string1="DevOps"
+
+         echo "-----equals example-----"
+
+         if [ "$string1" = "DevOps" ]
+
+         then
+
+                  echo "Matched"
+
+         fi
+
+         echo ""
+         echo "-----Not equals example-----"
+
+
+         if [ "$string1" != "DevOpss" ]
+
+         then
+
+                  echo "does NOT matched"
+
+         fi
+
+         echo ""
+         echo "-----if-else example-----"
+
+         if [ "$string1" = "DevOpss" ]
+
+         then
+
+                  echo "matched"
+
+         else 
+
+                  echo "does NOT matched"
+
+         fi
