@@ -14,6 +14,7 @@ There are two main shells in Linux:
         2.2. Tops C shell also is known as tcsh
         
 Key points:
+
         1. Kernel is the nucleus of the operating systems, and it communicates between hardware and software
         2. Shell is a program which interprets user commands through CLI like Terminal
         3. The Bourne shell and the C shell are the most used shells in Linux
