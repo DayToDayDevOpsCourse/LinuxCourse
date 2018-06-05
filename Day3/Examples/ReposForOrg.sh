@@ -14,7 +14,7 @@ read -s Passowrd
 
 	echo "Org name: ${Org}" >> finalReposNames.txt
 	
-	curl -i -u ${Username}:${Passowrd} https://api.github.com/orgs/${Org}/repos?type=all | grep -w '"name":' | awk ' /'"name"'/ {print $1,$2} ' > tempRepos.txt
+	curl -# -i -u ${Username}:${Passowrd} https://api.github.com/orgs/${Org}/repos?type=all | grep -w '"name":' | awk ' /'"name"'/ {print $1,$2} ' > tempRepos.txt
 
 	awk '{ print $2 }' tempRepos.txt >> finalReposNames.txt
 	echo ""
