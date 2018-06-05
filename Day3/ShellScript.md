@@ -219,3 +219,93 @@
                   echo "does NOT matched"
 
          fi
+         
+###### 14. if statement: example-4.1: 
+
+         #!/bin/sh
+         X=0
+         while [ -n "$X" ]
+         do
+           echo -en "Enter some text (press enter to quit): "
+           read X
+           echo "You said: $X"
+         done
+
+###### 14. if statement: example-4.2: 
+
+         #!/bin/sh
+         X=0
+         while [ -n "$X" ]
+         do
+           echo "Enter some text (RETURN to quit)"
+           read X
+           if [ -n "$X" ]; then
+             echo "You said: $X"
+           fi
+         done
+         
+###### 15. case: example-1:
+
+         #!/bin/sh
+
+         echo "Please talk to me ..."
+         while :
+         do
+           read INPUT_STRING
+           case $INPUT_STRING in
+                  hello)
+                           echo "Hello yourself!"
+                           ;;
+                  bye)
+                           echo "See you again!"
+                           break
+                           ;;
+                  *)
+                           echo "Sorry, I don't understand"
+                           ;;
+           esac
+         done
+         echo 
+         echo "That's all folks!"
+
+###### 16. variables/parameters: example-1:
+
+         #!/bin/sh
+
+         #Pass the parameters as below.
+         #./variables-1.sh venkat puneet vasu subbu
+
+         echo "I was called with $# parameters"
+         echo "My name is $0"
+         echo "My first parameter is $1"
+         echo "My second parameter is $2"
+         echo "All parameters are $@"
+
+###### 17. variables/parameters: example-2:
+
+         #!/bin/sh
+         
+         old_IFS="$IFS"
+         IFS=:
+         echo "Please input some data separated by colons ..."
+         read x y z
+         IFS=$old_IFS
+         echo "x is $x"
+         echo "y is $y"
+         echo "z is $z"
+         
+###### 18. variables/parameters: example-3:
+
+         #!/bin/sh
+         echo -en "What is your name [ `whoami` ] :"
+         read myname
+         if [ -z "$myname" ]; then
+           myname=`whoami`
+         fi
+         echo "Your name is : $myname"
+         
+###### 19. variables/parameters: example-4: 
+
+         #!/bin/sh
+         SH_FILES=`find . -name "*.sh" -print`
+         echo "$SH_FILES"
