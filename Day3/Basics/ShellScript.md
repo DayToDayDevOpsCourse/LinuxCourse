@@ -106,7 +106,7 @@
 
          echo "find the report in paths.txt" file.
       
-###### 9. while loop example-1
+###### 9. while loop example-1.1
 
          #!/bin/sh
 
@@ -121,6 +121,18 @@
 
          done
          
+###### 9. while loop example-1.2
+
+         #!/bin/sh
+
+         var1="R3-2018-DEC"
+
+         if [[ $var1 =~ "DEC" ]]; then
+
+                  echo "Exists"
+
+         fi
+
 ###### 10. while loop example-2
 
          #!/bin/sh
