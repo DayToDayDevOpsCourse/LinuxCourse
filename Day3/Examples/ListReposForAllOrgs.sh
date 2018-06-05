@@ -8,7 +8,7 @@ read Username
 echo -en "Enter Passowrd:"
 read -s Passowrd
 
-curl -i -u ${Username}:${Passowrd} https://api.github.com/user/orgs | grep -w '"login":' | awk ' /'"login"'/ {print $1,$2} ' > tempOrgs.txt
+curl -# -i -u ${Username}:${Passowrd} https://api.github.com/user/orgs | grep -w '"login":' | awk ' /'"login"'/ {print $1,$2} ' > tempOrgs.txt
 
 awk '{ print $2 }' tempOrgs.txt > tempOrgsList.txt
 
