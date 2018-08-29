@@ -17,13 +17,13 @@
 
 chmod 400 /home/ec2-user/server-2.pem
 
-* Create a sample.txt file in Server1.
+* Create a sample.txt file in Server-1.
 
 ![image](https://user-images.githubusercontent.com/24622526/44766825-c07ac100-ab4a-11e8-82b6-4a9456b5f221.png)
 
 * Copy the sample.txt file from Server-1 to Server-2 using SCP command.
 
-Syntax: scm -i [pemfile] [local/file/path/] uname@hostname:server/path
+Syntax: scp -i [pemfile] [local/file/path/] uname@hostname:server/path
 
 scp -i "/home/ec2-user/server-2.pem" /home/ec2-user/sample.txt ec2-user@ec2-18-218-27-186.us-east-2.compute.amazonaws.com:/home/ec2-user/
 
