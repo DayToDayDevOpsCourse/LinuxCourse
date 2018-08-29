@@ -29,6 +29,10 @@ scp -i "/home/ec2-user/server-2.pem" /home/ec2-user/sample.txt ec2-user@ec2-18-2
 
 ![image](https://user-images.githubusercontent.com/24622526/44766896-118ab500-ab4b-11e8-9974-582d93389e55.png)
 
+* Connect to Server-2: so far we havenot connected to Server-2.
+
+![image](https://user-images.githubusercontent.com/24622526/44767148-2c115e00-ab4c-11e8-9132-8933888b0370.png)
+
 * history of commands:
 
 ![image](https://user-images.githubusercontent.com/24622526/44766985-7d6d1d80-ab4b-11e8-8731-ecda015b83c4.png)
