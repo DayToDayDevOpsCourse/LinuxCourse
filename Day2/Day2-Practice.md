@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/24622526/44766612-cc19b800-ab49-11e8-827d-caa62966ffc3.png)
 
 
-* Create a pem file in "Server-1" with the name "server-2.pem" to connect to the Server-2. Copy the pem file content that you downloaded to your loal machine. Now the pem file "server-2" is in the path /home/ec2-user/server-2.pem
+* Create a pem file in "Server-1" with the name "server-2.pem" to connect to the Server-2. Copy the pem file content that you downloaded to your loal machine. Now the pem file "server-2.pem" is in the path /home/ec2-user/server-2.pem in "Server-1".
 
 ![image](https://user-images.githubusercontent.com/24622526/44766727-61b54780-ab4a-11e8-87c7-c6bc7ec5747e.png)
 
