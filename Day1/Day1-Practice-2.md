@@ -22,3 +22,9 @@ root@ip-172-31-31-98:~# fuser 80/tcp
 root@ip-172-31-31-98:~# ls -l /proc/4094/exe
 lrwxrwxrwx 1 root root 0 Feb 26 10:38 /proc/4094/exe -> /usr/sbin/nginx
 
+owner of process id: ps aux | grep 4094
+
+lsof command find out what is using port 80
+
+lsof -i :80 | grep LISTEN
+
