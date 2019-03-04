@@ -42,6 +42,10 @@
 
     groupadd super
 
+# give rwx access to any user on the directory
+
+		chmod -R a+rwx /root/sample
+
 ### Give permission to the user on the directory or file
 
 * create a file in root directory 
