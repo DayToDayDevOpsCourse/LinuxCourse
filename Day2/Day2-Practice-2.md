@@ -40,4 +40,40 @@
 
 ### creating new group:
 
-    groupadd 
+    groupadd super
+
+### Give permission to the user on the directory or file
+
+* create a file in root directory 
+
+        /root/sample/shell.sh
+
+* login to user venkat  
+
+        su - venkat
+        
+* try to edit the file
+
+        vi /root/sample/shell.sh
+        
+  User venkat can't edit the file. We need to givbe write access to the user venkat on the file /root/sample/shell.sh (or) we can maintain a group(with the list of users) to give write access on the directory or file.
+
+* User should be part of the group
+
+        usermod -a -G super venkat
+        
+* change the Permission for Folder
+
+        chown USER:GROUP DIRECTORY --> operate on only one directory level
+
+        chown -R USER:GROUP DIRECTORY --> operate on all files and sub-directories
+
+        chown venkat:super /root/sample/shell.sh
+
+* login to user venkat  
+
+        su - venkat
+        
+* try to edit the file
+
+        vi /root/sample/shell.sh
