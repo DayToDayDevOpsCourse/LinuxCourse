@@ -1,27 +1,43 @@
-useradd venkat
+# Login to root user 
 
-passwd venkat
+    sudo -i
 
-find / -name "venkat"
+# Create a user
 
-groups
+    useradd venkat
 
-getent group
+    passwd venkat
 
-usermod -G ec2-user venkat
+    find / -name "venkat"
 
-getent group | grep venkat
+    groups
 
-su - venkat
+    getent group
 
-id
+    usermod -G ec2-user venkat
 
-groups venkat
+    getent group | grep venkat
 
-id venkat
+# swith to the user venkat from root user
 
-Adding user to multiple groups
+    su - venkat
 
-useradd venkat2
+    id
 
-usermod -a -G venkat,root,ec2-user venkat2
+    groups venkat
+
+    id venkat
+
+### Adding user to multiple groups
+
+    useradd venkat2
+
+    usermod -a -G venkat,root,ec2-user venkat2
+
+    id venkat2
+
+    getent group | grep venkat2
+
+### creating new group:
+
+    groupadd 
