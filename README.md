@@ -17,24 +17,22 @@ Day 1:
 2. Linux features 
 
         1. open source os
-		2. securiry
-		3. software updates in linux are easy and frequent
-		4. various linux distributions are available so that we can use them according to your requirment.
-		5. It has large community support.
-		6. Peformance 
-		7. It is network friendly
+	2. security
+	3. software updates in linux are easy and frequent
+	4. various linux distributions are available so that we can use them according to your requirment.
+	5. It has large community support.
+	6. Peformance 
+	7. It is network friendly
 		
 
 3. Linux drawbacks 
 
-        1. it is no very user friendly.
+        1. it is not very user friendly.
 
 
 4. Linux architecture
 
 ![image](https://user-images.githubusercontent.com/20027119/115021940-473a6300-9eda-11eb-8b57-a881226abf16.png)
-
-       
 
 5. Linux folder structure.
        
