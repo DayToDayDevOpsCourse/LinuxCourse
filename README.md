@@ -37,7 +37,8 @@ Day 1:
 
 4. Linux architecture
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/20027119/115021782-0fcbb680-9eda-11eb-8987-0e3da38530b4.png)
+
 
        
 
