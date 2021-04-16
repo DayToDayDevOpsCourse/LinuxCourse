@@ -70,7 +70,7 @@
 
 	2. awk and sed
 
-## Day 4: Commands
+## Day 4:
 
 	1. awk
 
