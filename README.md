@@ -1,7 +1,7 @@
 # LinuxCourse
 
                                 Linux
-								=====
+				=====
 Day 1:
 
 1. What is linux ?
@@ -33,9 +33,12 @@ Day 1:
 3. Linux drawbacks 
 
         1. it is no very user friendly.
-		2. 
+
 
 4. Linux architecture
+
+![Uploading image.png…]()
+
        
 
 5. Linux folder structure.
