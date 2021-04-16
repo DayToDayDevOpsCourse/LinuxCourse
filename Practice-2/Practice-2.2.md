@@ -4,39 +4,39 @@
 
 # Create a user
 
-    useradd venkat
+    useradd devopsuser
 
-    passwd venkat
+    passwd devopsuser
 
-    find / -name "venkat"
+    find / -name "devopsuser"
 
     groups
 
     getent group
 
-    usermod -G ec2-user venkat
+    usermod -G ec2-user devopsuser
 
-    getent group | grep venkat
+    getent group | grep devopsuser
 
 # swith to the user venkat from root user
 
-    su - venkat
+    su - devopsuser
 
     id
 
-    groups venkat
+    groups devopsuser
 
-    id venkat
+    id devopsuser
 
 ### Adding user to multiple groups
 
-    useradd venkat2
+    useradd v2devops
 
-    usermod -a -G venkat,root,ec2-user venkat2
+    usermod -a -G devopsuser,root,ec2-user v2devops
 
-    id venkat2
+    id v2devops
 
-    getent group | grep venkat2
+    getent group | grep v2devops
 
 ### creating new group:
 
@@ -52,19 +52,19 @@
 
         /root/sample/shell.sh
 
-* login to user venkat  
+* login to user v2devops  
 
-        su - venkat
+        su - v2devops
         
 * try to edit the file
 
         vi /root/sample/shell.sh
         
-  User venkat can't edit the file. We need to givbe write access to the user venkat on the file /root/sample/shell.sh (or) we can maintain a group(with the list of users) to give write access on the directory or file.
+  User v2devops can't edit the file. We need to give write access to the user v2devops on the file /root/sample/shell.sh (or) we can maintain a group(with the list of users) to give write access on the directory or file.
 
 * User should be part of the group
 
-        usermod -a -G super venkat
+        usermod -a -G super v2devops
         
 * change the Permission for Folder
 
@@ -74,9 +74,9 @@
 
         chown venkat:super /root/sample/shell.sh
 
-* login to user venkat  
+* login to user v2devops  
 
-        su - venkat
+        su - v2devops
         
 * try to edit the file
 
