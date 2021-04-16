@@ -1,6 +1,8 @@
 # Login to root user 
 
     sudo -i
+    or 
+    sudo su -
 
 # Create a user
 
