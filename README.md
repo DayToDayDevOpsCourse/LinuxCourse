@@ -37,17 +37,18 @@ Day 1:
 
 4. Linux architecture
 
-![image](https://user-images.githubusercontent.com/20027119/115021782-0fcbb680-9eda-11eb-8987-0e3da38530b4.png)
-
+![image](https://user-images.githubusercontent.com/20027119/115021940-473a6300-9eda-11eb-8b57-a881226abf16.png)
 
        
 
 5. Linux folder structure.
        
+![image](https://user-images.githubusercontent.com/20027119/115022007-646f3180-9eda-11eb-8168-8cd5f4855c3d.png)
+
 
 6. Linux commands.
 
-====================================================================================================================
+=======================================================================
 
 Day 2:
 
@@ -60,18 +61,20 @@ Linux commands:
     uname,uptime,hostname,last reboot, date,cal,whoami
 	
 3. file permission
-    chmod	
+    chmod,chown	
 4. process related.
     ps,top,kill,bg,fg,lsof
 5. Disk usage
    df,du
 6. keyboard shortcuts:
 
-  ctrl+c---kill the current process
-  
-  ctrl+w  cut
-  ctrl+y paste
-  exit
+  ctrl+C---kill the current process running the terminal
+  ctrl+Z--stop the current process
+  ctrl+W  cut one word before the cursor and add it to clipboard
+  ctrl+U  cut part of line before the cursor and add it to clipboard
+  ctrl+Y paste from clpboar
+  !! repeat the last command
+  exit logout of current session
 
 ==================================================================================================================
 Day 3:
