@@ -1,7 +1,7 @@
 # LinuxCourse
 
                                 Linux
-				=====
+				  =====
 Day 1:
 
 1. What is linux ?
@@ -77,6 +77,8 @@ Linux commands:
   exit logout of current session
 
 =========================================================
+
+
 Day 3:
 
 1. creating users
