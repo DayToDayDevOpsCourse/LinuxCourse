@@ -18,7 +18,7 @@
 
     getent group | grep devopsuser
 
-# swith to the user venkat from root user
+# swith to the user 'devopsuser' from root user
 
     su - devopsuser
 
