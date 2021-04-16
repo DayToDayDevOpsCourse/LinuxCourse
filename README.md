@@ -1,7 +1,7 @@
 # LinuxCourse
 
-                                Linux
-				  =====
+                               ## Linux
+				 
 Day 1:
 
 1. What is linux ?
