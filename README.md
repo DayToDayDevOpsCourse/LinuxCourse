@@ -1,23 +1,18 @@
-# LinuxCourse
-
-                               ## Linux
+# Linux Course
 				 
 Day 1:
 
-1. What is linux ?
-    linux is open source operating system,
-	relaesed by Linus Torvalads in Sept-1991.
-	usage:
-	     in embeded systems like routers,automation controls,tvs,digital recorders, video game consoles
-		 and smart watches etc.
-	Linux distributions:
-	       1. ubuntu
-		   2. RHEL
-		   3. Debian
-		   4. Fedora
-		 
-		 
-		 
+	1. What is linux ?
+	    linux is open source operating system,
+		relaesed by Linus Torvalads in Sept-1991.
+		usage:
+		     in embeded systems like routers,automation controls,tvs,digital recorders, video game consoles
+			 and smart watches etc.
+		Linux distributions:
+		       1. ubuntu
+			   2. RHEL
+			   3. Debian
+			   4. Fedora
 
 2. Linux features 
 
@@ -52,51 +47,51 @@ Day 1:
 
 Day 2:
 
-Linux commands:
+	Linux commands:
 
-1. File commands
-     ls,pwd,mkdir,rm,cp,mv,touch,,more,head,tail,wc
-	 
-2. system information
-    uname,uptime,hostname,last reboot, date,cal,whoami
-	
-3. file permission
-    chmod,chown	
-4. process related.
-    ps,top,kill,bg,fg,lsof
-5. Disk usage
-   df,du
-6. keyboard shortcuts:
+	1. File commands
+	     ls,pwd,mkdir,rm,cp,mv,touch,,more,head,tail,wc
 
-  ctrl+C---kill the current process running the terminal
-  ctrl+Z--stop the current process
-  ctrl+W  cut one word before the cursor and add it to clipboard
-  ctrl+U  cut part of line before the cursor and add it to clipboard
-  ctrl+Y paste from clpboar
-  !! repeat the last command
-  exit logout of current session
+	2. system information
+	    uname,uptime,hostname,last reboot, date,cal,whoami
 
-=========================================================
+	3. file permission
+	    chmod,chown	
+	4. process related.
+	    ps,top,kill,bg,fg,lsof
+	5. Disk usage
+	   df,du
+	6. keyboard shortcuts:
+
+	  ctrl+C---kill the current process running the terminal
+	  ctrl+Z--stop the current process
+	  ctrl+W  cut one word before the cursor and add it to clipboard
+	  ctrl+U  cut part of line before the cursor and add it to clipboard
+	  ctrl+Y paste from clpboar
+	  !! repeat the last command
+	  exit logout of current session
+
+	=========================================================
 
 
-Day 3:
+	Day 3:
 
-1. creating users
+	1. creating users
 
-2. awk and sed
+	2. awk and sed
 
-==========================================================
+	==========================================================
 
-Day 4:
+	Day 4:
 
-1. awk
+	1. awk
 
-2. find
+	2. find
 
-3. sed
+	3. sed
 
-4. grep and echo
+	4. grep and echo
 
-=========================================================
+	=========================================================
 
 
