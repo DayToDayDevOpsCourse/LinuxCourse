@@ -1,3 +1,6 @@
 #!/bin/sh
-HTML_FILES=`find . -name "*.sh" -print`
-echo "$HTML_FILES"
+
+SHELL_FILES=`find . -name "*.sh"`
+#SHELL_FILES=$(find . -name "*.sh")
+
+echo "$SHELL_FILES"
