@@ -7,7 +7,7 @@ done
 
 #syntax for loop
 
-: <<'end_long_comment'
+: <<'multi_line_comment'
 
 for (( initializer; condition; incrementor/decrementor ))
 do
@@ -15,5 +15,5 @@ do
 	stagemets;
 	stagemets;
 done
-end_long_comment
+multi_line_comment
 
