@@ -1,5 +1,5 @@
 
-# Practice-2: Commands
+# Commands
     
       1. awk
       2. cut
