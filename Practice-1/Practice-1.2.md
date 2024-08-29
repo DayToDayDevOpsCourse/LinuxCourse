@@ -3,6 +3,15 @@
 
     df -h --> disk space
 
+    du -sh * | sort -rh | head -5 (top5 directories with size)
+
+    du -sh .[!.]* * | sort -rh | head -5 (top5 directories inclusing hidden dirs with size)
+
+    ifconfig | grep inet (ip address of a machine)
+ 
+    Copy matched files along with folder structure
+    find /data/jenkins/jobs/Digital-DevOps/ -name "config.xml" -exec cp --parents \{\} /data/jenkins-config-backup/config-backup-30-Jul-2024 \;
+
     free -m --> ram space
 
     lsblk --> mount points
