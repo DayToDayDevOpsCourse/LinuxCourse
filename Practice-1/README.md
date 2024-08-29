@@ -42,9 +42,12 @@
           yum install git
           git --version
           
-          After install: find / -name "git"
+          After install:
+          find / -name "git"
+
+          which git
          
-   6. Install java
+   7. Install java
 
           Before install: find / -name "java"
    
@@ -52,8 +55,10 @@
           yum install java-1.8.0-openjdk-devel
           
           After install: find / -name "java"
+
+          which java
     
-   7. Install jenkins
+   9. Install jenkins
    
           Before install: find / -name "jenkins"
           
