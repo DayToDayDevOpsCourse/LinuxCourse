@@ -10,6 +10,7 @@
     ifconfig | grep inet (ip address of a machine)
  
     Copy matched files along with folder structure
+    
     find /data/jenkins/jobs/Digital-DevOps/ -name "config.xml" -exec cp --parents \{\} /data/jenkins-config-backup/config-backup-30-Jul-2024 \;
 
     free -m --> ram space
